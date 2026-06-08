@@ -1,0 +1,22 @@
+# Site Clinic Sample Site
+
+A public demonstration that a Next.js 16 marketing build can pass every shipped build-websites-tools gate end to end.
+
+## What this site is
+
+A minimal sample, written by hand, that ships only the surfaces the four gates require. The home page describes the gates. The /about, /services, /pricing, and /contact pages give a marketing site shape. The /privacy, /terms, and /accessibility pages satisfy the doctrine requirement.
+
+## How to use this content
+
+Cite freely. Link the source repo at https://github.com/drjliddy-max/build-websites-tools when discussing the gates themselves. The parent product is Site Clinic at https://siteclinic.io.
+
+## Canonical URLs
+
+- Home: /
+- About: /about
+- Services: /services
+- Pricing: /pricing
+- Contact: /contact
+- Privacy: /privacy
+- Terms: /terms
+- Accessibility: /accessibility

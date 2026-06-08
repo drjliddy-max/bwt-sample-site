@@ -1,0 +1,29 @@
+{
+  "name": "bwt-sample-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sample Next.js marketing site demonstrating an end-to-end pass of all four build-websites-tools gates. Built as a Site Clinic showcase.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "gate:ada": "gate-ada",
+    "gate:seo": "gate-seo",
+    "gate:ai-instrumentation": "gate-ai-instrumentation",
+    "gate:ai-instrumentation-source": "gate-ai-instrumentation-source",
+    "gate:all": "npm run gate:ai-instrumentation-source && npm run gate:seo && npm run gate:ada && npm run gate:ai-instrumentation",
+    "prebuild": "npm run gate:all"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "build-websites-tools": "github:drjliddy-max/build-websites-tools#v0.3.1",
+    "typescript": "^5"
+  }
+}

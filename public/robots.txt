@@ -1,0 +1,27 @@
+# AI policy (declared) — per MASTER_VISIBILITY_MATRIX §17.3.1.2
+#
+# This sample site is open to crawling by reputable AI agents for
+# citation, retrieval, and synthesis. Per-bot exceptions can be
+# adjusted below as the policy evolves.
+#
+# Allow-by-default for documented AI training and retrieval bots.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: http://127.0.0.1:3000/sitemap.xml
