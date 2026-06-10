@@ -1,5 +1,7 @@
 # Site Clinic Sample Site
 
+[![Gates](https://github.com/drjliddy-max/bwt-sample-site/actions/workflows/gates.yml/badge.svg)](https://github.com/drjliddy-max/bwt-sample-site/actions/workflows/gates.yml)
+
 A public sample of a Next.js 16 marketing build that passes every shipped [`build-websites-tools`](https://github.com/drjliddy-max/build-websites-tools) gate end to end. Built as a Site Clinic showcase and audit of the open-source enforcement layer.
 
 ## What this is
