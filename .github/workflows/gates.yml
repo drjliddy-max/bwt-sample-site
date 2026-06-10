@@ -1,0 +1,31 @@
+name: Gates
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Weekly self-verification run: Mondays 14:00 UTC
+    - cron: "0 14 * * 1"
+  workflow_dispatch:
+
+jobs:
+  gate-all:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium (real-browser axe-core run)
+        run: npx playwright install --with-deps chromium
+
+      - name: Run all four gates
+        run: npm run gate:all
