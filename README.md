@@ -7,7 +7,7 @@ A public sample of a Next.js 16 marketing build that passes every shipped [`buil
 ## What this is
 
 - A from-scratch Next.js 16 App Router build. No private templates, no internal Site Clinic scaffolding, no copied scripts.
-- Wired with `build-websites-tools@v0.3.1` exactly per the published README.
+- Wired with `build-websites-tools@v0.3.3` exactly per the published README.
 - 8 routes — `/`, `/about`, `/services`, `/pricing`, `/contact`, `/privacy`, `/terms`, `/accessibility` — each authored to pass all four gates.
 
 ## How to verify

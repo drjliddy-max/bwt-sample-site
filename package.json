@@ -23,7 +23,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "build-websites-tools": "github:drjliddy-max/build-websites-tools#v0.3.1",
+    "build-websites-tools": "github:drjliddy-max/build-websites-tools#v0.3.3",
     "typescript": "^5"
   }
 }
