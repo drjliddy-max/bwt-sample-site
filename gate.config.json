@@ -25,5 +25,12 @@
   "aiInstrumentation": {
     "_note": "GA4 check is opted out because the sample site ships no analytics by design (see /privacy). Other AI instrumentation dimensions remain enforced.",
     "checks": { "ga4": false }
+  },
+  "conversionInstrumentation": {
+    "source": {
+      "skip": {
+        "reason": "Sample site ships no conversion funnel and no analytics by design (see /privacy). It is the build-websites-tools proof-of-builder showcase, not a monitored board, so it has no /api/track relay to enforce. Mirrors the aiInstrumentation.ga4 opt-out above."
+      }
+    }
   }
 }
