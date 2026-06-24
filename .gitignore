@@ -6,3 +6,6 @@ out/
 .vercel/
 .DS_Store
 .vercel
+
+# Fallow static-analysis output (regenerable)
+.fallow/
