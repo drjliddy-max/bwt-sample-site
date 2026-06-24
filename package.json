@@ -11,7 +11,9 @@
     "gate:seo": "gate-seo",
     "gate:ai-instrumentation": "gate-ai-instrumentation",
     "gate:ai-instrumentation-source": "gate-ai-instrumentation-source",
-    "gate:all": "npm run gate:ai-instrumentation-source && npm run gate:seo && npm run gate:ada && npm run gate:ai-instrumentation",
+    "gate:conversion-instrumentation-source": "gate-conversion-instrumentation-source",
+    "gate:dashboard-parity": "gate-dashboard-parity",
+    "gate:all": "npm run gate:dashboard-parity && npm run gate:ai-instrumentation",
     "prebuild": "npm run gate:all"
   },
   "dependencies": {
@@ -23,7 +25,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "build-websites-tools": "github:drjliddy-max/build-websites-tools#v0.3.3",
+    "build-websites-tools": "github:drjliddy-max/build-websites-tools#v0.6.0",
     "typescript": "^5"
   }
 }
